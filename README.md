@@ -34,6 +34,7 @@ Handling Missing Values: Imputes missing genotype values with the mean of each S
 Scaling Genotypes: Scales the genotype data to have a mean of 0 and variance of 1 using StandardScaler.
 Performing GWAS: Performs linear regression for each SNP using statsmodels to identify associations with the phenotype.
 Outputting Results: Saves the GWAS results to a file and generates Manhattan and QQ plots.
+Sorting Results: Optionally, you can use sort.py to sort the output file by p-value to examine the most important SNPs. 
 
 ## Output ## 
 GWAS Results: A tab-delimited file gwas_results.txt containing the following columns:
@@ -46,6 +47,6 @@ P: p-value
 Plots: Manhattan and QQ plots are displayed to visualize the GWAS results.
 
 ## Example Files ##
-This contains data from two sources--lab 3 and the Personal Genome Project. lab3_gaws.phen contains the phenotypic data, lab3_gwas.vcf.gz contains the genotypic data, lab3_gwas.vcf.gz.tbi is the index file, and lab3_gwas.assoc.linear is the covariate file for the dataset. Note that the index file is not taken as an argument, but it still needs to be downloaded for the program to run. 
+This contains data from two sources--lab 3 and the Personal Genome Project. lab3_gaws.phen contains the phenotypic data, lab3_gwas.vcf.gz contains the genotypic data, and lab3_gwas.vcf.gz.tbi is the index file. Note that the index file is not taken as an argument, but it still needs to be downloaded for the program to run. 
 The PGP data is as follows: BMI.csv contains phenotypic data, BMI_merged.vcf.gz contains genotypic data, and BMI_merged.vcf.gz.tbi is the indexed file. 
 
