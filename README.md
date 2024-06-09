@@ -48,5 +48,5 @@ Plots: Manhattan and QQ plots are displayed to visualize the GWAS results.
 
 ## Example Files ##
 This contains data from two sources--lab 3 and the Personal Genome Project. lab3_gaws.phen contains the phenotypic data, lab3_gwas.vcf.gz contains the genotypic data, and lab3_gwas.vcf.gz.tbi is the index file. Note that the index file is not taken as an argument, but it still needs to be downloaded for the program to run. 
-Unfortunately, the merged vcf file from PGP and the individual vcf files are too big to put upload to GitHub or attach to an email or send over Canvas, so you'll have to download them off of the PGP website and merge them to run. BMI.csv contains the phenotypes of the files that weren't corrupted for me, so I'd recommend just downloading the vcf and vcf.tbi files for those participants. 
+The PGP vcf file is massive and too big for github or to send over email or canvas, so here it is on my [google drive](https://drive.google.com/file/d/1L8nYwbp0WGwPI-LDXJtUs7dkTZjAi1Z9/view?usp=sharing). It's like 3 GB it's massive, be warned. You'll have to make the tbi file yourself, just run 'tabix BMI_merged.vcf.gz', and it should be good to go. 
 
