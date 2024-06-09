@@ -44,3 +44,8 @@ BETA: Regression coefficient
 STAT: Test statistic
 P: p-value
 Plots: Manhattan and QQ plots are displayed to visualize the GWAS results.
+
+## Example Files ##
+This contains data from two sources--lab 3 and the Personal Genome Project. lab3_gaws.phen contains the phenotypic data, lab3_gwas.vcf.gz contains the genotypic data, lab3_gwas.vcf.gz.tbi is the index file, and lab3_gwas.assoc.linear is the covariate file for the dataset. Note that the index file is not taken as an argument, but it still needs to be downloaded for the program to run. 
+The PGP data is as follows: BMI.csv contains phenotypic data, BMI_merged.vcf.gz contains genotypic data, and BMI_merged.vcf.gz.tbi is the indexed file. 
+
